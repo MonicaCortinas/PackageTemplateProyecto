@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   class="main-svg"
+   width="800"
+   height="600"
+   style=""
+   version="1.1"
+   id="svg343"
+   sodipodi:docname="edades.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata347">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="724"
+     inkscape:window-height="480"
+     id="namedview345"
+     showgrid="false"
+     inkscape:zoom="0.355"
+     inkscape:cx="400"
+     inkscape:cy="300"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg343" />
+  <rect
+     x="0"
+     y="0"
+     width="800"
+     height="600"
+     style="fill: rgb(255, 255, 255); fill-opacity: 1;"
+     id="rect2" />
+  <defs
+     id="defs-c340ea">
+    <g
+       class="gradients"
+       id="g4" />
+    <g
+       class="clips"
+       id="g18">
+      <clipPath
+         class="axesclip"
+         id="clipc340eax">
+        <rect
+           x="110"
+           y="0"
+           width="533"
+           height="600"
+           id="rect6" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipc340eay">
+        <rect
+           x="0"
+           y="120"
+           width="800"
+           height="360"
+           id="rect9" />
+      </clipPath>
+      <clipPath
+         class="axesclip"
+         id="clipc340eaxy">
+        <rect
+           x="110"
+           y="120"
+           width="533"
+           height="360"
+           id="rect12" />
+      </clipPath>
+      <clipPath
+         class="plotclip"
+         id="clipc340eaxyplot">
+        <rect
+           width="533"
+           height="360"
+           id="rect15" />
+      </clipPath>
+    </g>
+  </defs>
+  <g
+     class="bglayer"
+     id="g23">
+    <rect
+       class="bg"
+       x="100"
+       y="110"
+       width="553"
+       height="380"
+       style="fill: rgb(255, 255, 255); fill-opacity: 1; stroke-width: 0;"
+       id="rect21" />
+  </g>
+  <g
+     class="layer-below"
+     id="g29">
+    <g
+       class="imagelayer"
+       id="g25" />
+    <g
+       class="shapelayer"
+       id="g27" />
+  </g>
+  <g
+     class="cartesianlayer"
+     id="g223">
+    <g
+       class="subplot xy"
+       id="g221">
+      <g
+         class="layer-subplot"
+         id="g35">
+        <g
+           class="shapelayer"
+           id="g31" />
+        <g
+           class="imagelayer"
+           id="g33" />
+      </g>
+      <g
+         class="gridlayer"
+         transform="translate(110,120)"
+         id="g55">
+        <path
+           class="ygrid crisp"
+           d="M0,0h533"
+           transform="translate(0,322)"
+           style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"
+           id="path37" />
+        <path
+           class="ygrid crisp"
+           d="M0,0h533"
+           transform="translate(0,284)"
+           style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"
+           id="path39" />
+        <path
+           class="ygrid crisp"
+           d="M0,0h533"
+           transform="translate(0,246)"
+           style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"
+           id="path41" />
+        <path
+           class="ygrid crisp"
+           d="M0,0h533"
+           transform="translate(0,208)"
+           style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"
+           id="path43" />
+        <path
+           class="ygrid crisp"
+           d="M0,0h533"
+           transform="translate(0,170)"
+           style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"
+           id="path45" />
+        <path
+           class="ygrid crisp"
+           d="M0,0h533"
+           transform="translate(0,132)"
+           style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"
+           id="path47" />
+        <path
+           class="ygrid crisp"
+           d="M0,0h533"
+           transform="translate(0,94)"
+           style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"
+           id="path49" />
+        <path
+           class="ygrid crisp"
+           d="M0,0h533"
+           transform="translate(0,56)"
+           style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"
+           id="path51" />
+        <path
+           class="ygrid crisp"
+           d="M0,0h533"
+           transform="translate(0,18)"
+           style="stroke: rgb(238, 238, 238); stroke-opacity: 1; stroke-width: 1px;"
+           id="path53" />
+      </g>
+      <g
+         class="overgrid"
+         id="g57" />
+      <g
+         class="zerolinelayer"
+         transform="translate(110,120)"
+         id="g61">
+        <path
+           class="yzl zl crisp"
+           d="M0,0h533"
+           transform="translate(0,360)"
+           style="stroke: rgb(68, 68, 68); stroke-opacity: 1; stroke-width: 1px;"
+           id="path59" />
+      </g>
+      <g
+         class="overzero"
+         id="g63" />
+      <path
+         class="xlines-below"
+         id="path65" />
+      <path
+         class="ylines-below"
+         id="path67" />
+      <g
+         class="overlines-below"
+         id="g69" />
+      <g
+         class="xaxislayer-below"
+         id="g71" />
+      <g
+         class="yaxislayer-below"
+         id="g73" />
+      <g
+         class="overaxes-below"
+         id="g75" />
+      <g
+         class="plot"
+         transform="translate(110, 120)"
+         clip-path="url(#clipc340eaxyplot)"
+         id="g153">
+        <g
+           class="imagelayer"
+           id="g77" />
+        <g
+           class="maplayer"
+           id="g79" />
+        <g
+           class="barlayer"
+           id="g145">
+          <g
+             class="trace bars"
+             style="opacity: 1;"
+             id="g95">
+            <g
+               class="points"
+               id="g93">
+              <g
+                 class="point"
+                 id="g83">
+                <path
+                   d="M57.77,360V94H70.59V360Z"
+                   style="vector-effect: non-scaling-stroke; stroke-width: 0px; fill: rgb(48, 147, 158); fill-opacity: 1;"
+                   id="path81" />
+              </g>
+              <g
+                 class="point"
+                 id="g87">
+                <path
+                   d="M235.44,360V48.4H248.26V360Z"
+                   style="vector-effect: non-scaling-stroke; stroke-width: 0px; fill: rgb(48, 147, 158); fill-opacity: 1;"
+                   id="path85" />
+              </g>
+              <g
+                 class="point"
+                 id="g91">
+                <path
+                   d="M413.11,360V18H425.92V360Z"
+                   style="vector-effect: non-scaling-stroke; stroke-width: 0px; fill: rgb(48, 147, 158); fill-opacity: 1;"
+                   id="path89" />
+              </g>
+            </g>
+          </g>
+          <g
+             class="trace bars"
+             style="opacity: 1;"
+             id="g111">
+            <g
+               class="points"
+               id="g109">
+              <g
+                 class="point"
+                 id="g99">
+                <path
+                   d="M74.21,360V318.2H87.03V360Z"
+                   style="vector-effect: non-scaling-stroke; stroke-width: 0px; fill: rgb(54, 85, 107); fill-opacity: 1;"
+                   id="path97" />
+              </g>
+              <g
+                 class="point"
+                 id="g103">
+                <path
+                   d="M251.87,360V322H264.69V360Z"
+                   style="vector-effect: non-scaling-stroke; stroke-width: 0px; fill: rgb(54, 85, 107); fill-opacity: 1;"
+                   id="path101" />
+              </g>
+              <g
+                 class="point"
+                 id="g107">
+                <path
+                   d="M429.54,360V329.6H442.36V360Z"
+                   style="vector-effect: non-scaling-stroke; stroke-width: 0px; fill: rgb(54, 85, 107); fill-opacity: 1;"
+                   id="path105" />
+              </g>
+            </g>
+          </g>
+          <g
+             class="trace bars"
+             style="opacity: 1;"
+             id="g127">
+            <g
+               class="points"
+               id="g125">
+              <g
+                 class="point"
+                 id="g115">
+                <path
+                   d="M90.64,360V337.2H103.46V360Z"
+                   style="vector-effect: non-scaling-stroke; stroke-width: 0px; fill: rgb(197, 197, 197); fill-opacity: 1;"
+                   id="path113" />
+              </g>
+              <g
+                 class="point"
+                 id="g119">
+                <path
+                   d="M268.31,360V348.6H281.13V360Z"
+                   style="vector-effect: non-scaling-stroke; stroke-width: 0px; fill: rgb(197, 197, 197); fill-opacity: 1;"
+                   id="path117" />
+              </g>
+              <g
+                 class="point"
+                 id="g123">
+                <path
+                   d="M445.97,360V352.4H458.79V360Z"
+                   style="vector-effect: non-scaling-stroke; stroke-width: 0px; fill: rgb(197, 197, 197); fill-opacity: 1;"
+                   id="path121" />
+              </g>
+            </g>
+          </g>
+          <g
+             class="trace bars"
+             style="opacity: 1;"
+             id="g143">
+            <g
+               class="points"
+               id="g141">
+              <g
+                 class="point"
+                 id="g131">
+                <path
+                   d="M107.08,360V310.6H119.89V360Z"
+                   style="vector-effect: non-scaling-stroke; stroke-width: 0px; fill: rgb(226, 82, 61); fill-opacity: 1;"
+                   id="path129" />
+              </g>
+              <g
+                 class="point"
+                 id="g135">
+                <path
+                   d="M284.74,360V341H297.56V360Z"
+                   style="vector-effect: non-scaling-stroke; stroke-width: 0px; fill: rgb(226, 82, 61); fill-opacity: 1;"
+                   id="path133" />
+              </g>
+              <g
+                 class="point"
+                 id="g139">
+                <path
+                   d="M462.41,360V348.6H475.23V360Z"
+                   style="vector-effect: non-scaling-stroke; stroke-width: 0px; fill: rgb(226, 82, 61); fill-opacity: 1;"
+                   id="path137" />
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           class="carpetlayer"
+           id="g147" />
+        <g
+           class="boxlayer"
+           id="g149" />
+        <g
+           class="scatterlayer"
+           id="g151" />
+      </g>
+      <g
+         class="overplot"
+         id="g155" />
+      <path
+         class="xlines-above crisp"
+         transform="translate(110,120)"
+         d="M-11,370.5H533"
+         style="fill: none; stroke-width: 1px; stroke: rgb(0, 0, 0); stroke-opacity: 0;"
+         id="path157" />
+      <path
+         class="ylines-above crisp"
+         transform="translate(110,120)"
+         d="M-10.5,0V370"
+         style="fill: none; stroke-width: 1px; stroke: rgb(0, 0, 0); stroke-opacity: 0;"
+         id="path159" />
+      <g
+         class="overlines-above"
+         id="g161" />
+      <g
+         class="xaxislayer-above"
+         transform="translate(110,120)"
+         id="g175">
+        <g
+           class="xtick"
+           id="g165">
+          <text
+             text-anchor="middle"
+             x="0"
+             y="383"
+             transform="translate(88.83,0)"
+             style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+             id="text163">Total U. Públicas</text>
+        </g>
+        <g
+           class="xtick"
+           id="g169">
+          <text
+             text-anchor="middle"
+             x="0"
+             y="383"
+             transform="translate(266.5,0)"
+             style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+             id="text167">Total U. Públicas Presenciales</text>
+        </g>
+        <g
+           class="xtick"
+           id="g173">
+          <text
+             text-anchor="middle"
+             x="0"
+             y="383"
+             transform="translate(444.17,0)"
+             style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+             id="text171">UPNA</text>
+        </g>
+      </g>
+      <g
+         class="yaxislayer-above"
+         transform="translate(110,120)"
+         id="g217">
+        <g
+           class="ytick"
+           id="g179">
+          <text
+             text-anchor="end"
+             x="-11"
+             y="4.199999999999999"
+             transform="translate(0,360)"
+             style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+             id="text177">0</text>
+        </g>
+        <g
+           class="ytick"
+           id="g183">
+          <text
+             text-anchor="end"
+             x="-11"
+             y="4.199999999999999"
+             transform="translate(0,322)"
+             style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+             id="text181">10</text>
+        </g>
+        <g
+           class="ytick"
+           id="g187">
+          <text
+             text-anchor="end"
+             x="-11"
+             y="4.199999999999999"
+             transform="translate(0,284)"
+             style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+             id="text185">20</text>
+        </g>
+        <g
+           class="ytick"
+           id="g191">
+          <text
+             text-anchor="end"
+             x="-11"
+             y="4.199999999999999"
+             transform="translate(0,246)"
+             style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+             id="text189">30</text>
+        </g>
+        <g
+           class="ytick"
+           id="g195">
+          <text
+             text-anchor="end"
+             x="-11"
+             y="4.199999999999999"
+             transform="translate(0,208)"
+             style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+             id="text193">40</text>
+        </g>
+        <g
+           class="ytick"
+           id="g199">
+          <text
+             text-anchor="end"
+             x="-11"
+             y="4.199999999999999"
+             transform="translate(0,170)"
+             style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+             id="text197">50</text>
+        </g>
+        <g
+           class="ytick"
+           id="g203">
+          <text
+             text-anchor="end"
+             x="-11"
+             y="4.199999999999999"
+             transform="translate(0,132)"
+             style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+             id="text201">60</text>
+        </g>
+        <g
+           class="ytick"
+           id="g207">
+          <text
+             text-anchor="end"
+             x="-11"
+             y="4.199999999999999"
+             transform="translate(0,94)"
+             style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+             id="text205">70</text>
+        </g>
+        <g
+           class="ytick"
+           id="g211">
+          <text
+             text-anchor="end"
+             x="-11"
+             y="4.199999999999999"
+             transform="translate(0,56)"
+             style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+             id="text209">80</text>
+        </g>
+        <g
+           class="ytick"
+           id="g215">
+          <text
+             text-anchor="end"
+             x="-11"
+             y="4.199999999999999"
+             transform="translate(0,18)"
+             style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+             id="text213">90</text>
+        </g>
+      </g>
+      <g
+         class="overaxes-above"
+         id="g219" />
+    </g>
+  </g>
+  <g
+     class="ternarylayer"
+     id="g225" />
+  <g
+     class="geolayer"
+     id="g227" />
+  <g
+     class="layer-above"
+     id="g233">
+    <g
+       class="imagelayer"
+       id="g229" />
+    <g
+       class="shapelayer"
+       id="g231" />
+  </g>
+  <g
+     class="pielayer"
+     id="g235" />
+  <g
+     class="glimages"
+     id="g237" />
+  <defs
+     id="topdefs-c340ea">
+    <clipPath
+       id="legendc340ea">
+      <rect
+         width="134"
+         height="86"
+         x="0"
+         y="0"
+         id="rect239" />
+    </clipPath>
+  </defs>
+  <g
+     class="infolayer"
+     id="g341">
+    <g
+       class="g-gtitle"
+       id="g245">
+      <text
+         class="gtitle"
+         x="400"
+         y="60"
+         text-anchor="middle"
+         style="font-family: Raleway; font-size: 17px; fill: rgb(68, 68, 68); opacity: 1; font-weight: normal; white-space: pre;"
+         id="text243">Estadística Estudiantes de Nuevo Ingreso</text>
+    </g>
+    <g
+       class="legend"
+       pointer-events="all"
+       transform="translate(653.66, 120)"
+       id="g327">
+      <rect
+         class="bg"
+         shape-rendering="crispEdges"
+         width="134"
+         height="86"
+         x="0"
+         y="0"
+         style="stroke: rgb(68, 68, 68); stroke-opacity: 1; fill: rgb(255, 255, 255); fill-opacity: 1; stroke-width: 0px;"
+         id="rect247" />
+      <g
+         class="scrollbox"
+         transform="translate(0, 0)"
+         clip-path="url(#legendc340ea)"
+         id="g323">
+        <g
+           class="groups"
+           id="g321">
+          <g
+             class="traces"
+             transform="translate(0, 14.5)"
+             style="opacity: 1;"
+             id="g265">
+            <g
+               class="layers"
+               style="opacity: 1;"
+               id="g259">
+              <g
+                 class="legendfill"
+                 id="g249" />
+              <g
+                 class="legendlines"
+                 id="g251" />
+              <g
+                 class="legendsymbols"
+                 id="g257">
+                <g
+                   class="legendpoints"
+                   id="g255">
+                  <path
+                     class="legendbar"
+                     d="M6,6H-6V-6H6Z"
+                     transform="translate(20,0)"
+                     style="stroke-width: 0px; fill: rgb(226, 82, 61); fill-opacity: 1;"
+                     id="path253" />
+                </g>
+              </g>
+            </g>
+            <text
+               class="legendtext user-select-none"
+               text-anchor="start"
+               x="40"
+               y="4.680000000000001"
+               style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+               id="text261">Más de 30 años</text>
+            <rect
+               class="legendtoggle"
+               pointer-events="all"
+               x="0"
+               y="-9.5"
+               width="174"
+               height="19"
+               style="cursor: pointer; fill: rgb(0, 0, 0); fill-opacity: 0;"
+               id="rect263" />
+          </g>
+          <g
+             class="traces"
+             transform="translate(0, 33.5)"
+             style="opacity: 1;"
+             id="g283">
+            <g
+               class="layers"
+               style="opacity: 1;"
+               id="g277">
+              <g
+                 class="legendfill"
+                 id="g267" />
+              <g
+                 class="legendlines"
+                 id="g269" />
+              <g
+                 class="legendsymbols"
+                 id="g275">
+                <g
+                   class="legendpoints"
+                   id="g273">
+                  <path
+                     class="legendbar"
+                     d="M6,6H-6V-6H6Z"
+                     transform="translate(20,0)"
+                     style="stroke-width: 0px; fill: rgb(197, 197, 197); fill-opacity: 1;"
+                     id="path271" />
+                </g>
+              </g>
+            </g>
+            <text
+               class="legendtext user-select-none"
+               text-anchor="start"
+               x="40"
+               y="4.680000000000001"
+               style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+               id="text279">De 26 a 30 años</text>
+            <rect
+               class="legendtoggle"
+               pointer-events="all"
+               x="0"
+               y="-9.5"
+               width="174"
+               height="19"
+               style="cursor: pointer; fill: rgb(0, 0, 0); fill-opacity: 0;"
+               id="rect281" />
+          </g>
+          <g
+             class="traces"
+             transform="translate(0, 52.5)"
+             style="opacity: 1;"
+             id="g301">
+            <g
+               class="layers"
+               style="opacity: 1;"
+               id="g295">
+              <g
+                 class="legendfill"
+                 id="g285" />
+              <g
+                 class="legendlines"
+                 id="g287" />
+              <g
+                 class="legendsymbols"
+                 id="g293">
+                <g
+                   class="legendpoints"
+                   id="g291">
+                  <path
+                     class="legendbar"
+                     d="M6,6H-6V-6H6Z"
+                     transform="translate(20,0)"
+                     style="stroke-width: 0px; fill: rgb(54, 85, 107); fill-opacity: 1;"
+                     id="path289" />
+                </g>
+              </g>
+            </g>
+            <text
+               class="legendtext user-select-none"
+               text-anchor="start"
+               x="40"
+               y="4.680000000000001"
+               style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+               id="text297">De 22 a 25 años</text>
+            <rect
+               class="legendtoggle"
+               pointer-events="all"
+               x="0"
+               y="-9.5"
+               width="174"
+               height="19"
+               style="cursor: pointer; fill: rgb(0, 0, 0); fill-opacity: 0;"
+               id="rect299" />
+          </g>
+          <g
+             class="traces"
+             transform="translate(0, 71.5)"
+             style="opacity: 1;"
+             id="g319">
+            <g
+               class="layers"
+               style="opacity: 1;"
+               id="g313">
+              <g
+                 class="legendfill"
+                 id="g303" />
+              <g
+                 class="legendlines"
+                 id="g305" />
+              <g
+                 class="legendsymbols"
+                 id="g311">
+                <g
+                   class="legendpoints"
+                   id="g309">
+                  <path
+                     class="legendbar"
+                     d="M6,6H-6V-6H6Z"
+                     transform="translate(20,0)"
+                     style="stroke-width: 0px; fill: rgb(48, 147, 158); fill-opacity: 1;"
+                     id="path307" />
+                </g>
+              </g>
+            </g>
+            <text
+               class="legendtext user-select-none"
+               text-anchor="start"
+               x="40"
+               y="4.680000000000001"
+               style="font-family: Raleway; font-size: 12px; fill: rgb(68, 68, 68); fill-opacity: 1; white-space: pre;"
+               id="text315">De 18 a 21 años</text>
+            <rect
+               class="legendtoggle"
+               pointer-events="all"
+               x="0"
+               y="-9.5"
+               width="174"
+               height="19"
+               style="cursor: pointer; fill: rgb(0, 0, 0); fill-opacity: 0;"
+               id="rect317" />
+          </g>
+        </g>
+      </g>
+      <rect
+         class="scrollbar"
+         rx="20"
+         ry="2"
+         width="0"
+         height="0"
+         style="fill: rgb(128, 139, 164); fill-opacity: 1;"
+         id="rect325" />
+    </g>
+    <g
+       class="g-xtitle"
+       id="g335">
+      <text
+         class="xtitle"
+         x="376.5"
+         y="532"
+         text-anchor="middle"
+         style="font-family: Raleway; font-size: 14px; fill: rgb(68, 68, 68); opacity: 1; font-weight: normal; white-space: pre;"
+         id="text333">
+        <tspan
+           class="line"
+           dy="0em"
+           x="376.5"
+           y="532"
+           id="tspan329" />
+        <tspan
+           class="line"
+           dy="1.3em"
+           x="376.5"
+           y="532"
+           id="tspan331" />
+      </text>
+    </g>
+    <g
+       class="g-ytitle"
+       id="g339">
+      <text
+         class="ytitle"
+         transform="rotate(-90,72,300) translate(0, 0)"
+         x="72"
+         y="300"
+         text-anchor="middle"
+         style="font-family: Raleway; font-size: 14px; fill: rgb(68, 68, 68); opacity: 1; font-weight: normal; white-space: pre;"
+         id="text337">Porcentaje</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,265 @@
+---
+documentclass: book
+classoption: a4paper
+#classoption: a4paper,oneside
+#bibliography: bib/library.bib
+bibliography: "D:/Dropbox/2_ Investigacion/4_Referencias/library.bib"
+#csl: methods-in-ecology-and-evolution.csl
+csl: spanish-journal-of-marketing-esic.csl
+link-citations: yes
+fontsize: 12pt # 10pt,11pt
+geometry: margin = 2.5cm
+output: 
+  pdf_document: 
+    keep_tex: yes
+    number_sections: yes
+#    toc: yes
+    fig_caption: yes
+    includes:
+      in_header: latex/latex_preambulo.tex
+      after_body: latex/latex_antes_enddoc.tex
+---
+
+
+
+```{r include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(fig.path = 'figurasR/',
+                      echo = FALSE, warning = FALSE, message = FALSE,
+                      fig.align="center",out.width="95%",
+                      cache=FALSE)
+
+```
+# Marco Académico e Institucional
+
+## Introducción. La Docencia en la Educación Superior
+
+`r newthought('Nunca antes de este momento')` los individuos en las sociedades occidentales habían tenido un acceso mayor a todo tipo de información. Las TIC han transformado la forma en que entendemos el mundo y la educación no ha sido una excepción en este fenómeno. La tecnología de la información ha "democratizado" el acceso a múltiples recursos educativos y han surgido nuevos modelos como los *MOOCS*^[Massive Open Online Courses] [@Nowroozzadeh2013] o los *Bootcamps*^[*Campos de entrenamiento* de corta duración, populares sobre todo en campos de IT] [@Cohen2013] .
+
+En este contexto, cabe preguntarse cuál es el papel específico que juega la educación superior y, más específicamente, cuál debe ser el papel de la educación universitaria presencial en particular. 
+
+```{marginfigure, echo=TRUE}
+La universidad moderna es productora y transformadora de conocimiento como ciencia y conocimiento como cultura  
+**Delanty, 2001**
+  
+```
+
+Según  @Delanty2001 en la universidad integrada en la sociedad del conocimiento, la docencia universitaria no puede limitarse a ser simple transmisor de conocimiento sino que debe tener un rol de producción y transformación de este conocimiento y debe estar conectada tanto a la ciencia como a la cultura^[Es este rol el que define, por tanto, a la actividad universitaria y la distingue de otro tipo de ofertas formativas, ya sean regladas o no.]. 
+
+Además, en este nuevo contexto, según @Vaira2004a la docencia universitaria debe abordarse desde una doble visión, por un lado, divergente y emprendedora, que la distinga de otras universidades y por otro lado, con una perspectiva global. Esto exige a las universidades un conocimiento profundo de su entorno y sus necesidades para personalizar su oferta, adecuándola a su realidad socio-económica particular y, por otro lado, la permanente atención y adaptación a las nuevas tendencias que este contexto global exige.
+
+En España, la tarea de la Universidad se define en el artículo 1 de la Ley Orgánica 4/2007, de 12 de abril, de Universidades.
+
+En España, la actividad universitaria se rige por la LOU^[Ley Orgánica 4/2007, de 12 de abril, de Universidades] que define la tarea de la Universidad como:
+
+\noindent\rule{2cm}{0.4pt}
+
+> 1. La Universidad realiza el servicio público de la educación superior mediante la investigación, la docencia y el estudio.
+
+> 2. Son funciones de la Universidad al servicio de la sociedad:
+
+> a) La creación, desarrollo, transmisión y crítica de la ciencia, de la técnica y de la cultura.
+
+> b) La preparación para el ejercicio de actividades profesionales que exijan la aplicación de conocimientos y métodos científicos y para la creación artística.
+
+> c) La difusión, la valorización y la transferencia del conocimiento al servicio de la cultura, de la calidad de la vida, y del desarrollo económico.
+
+> d) La difusión del conocimiento y la cultura a través de la extensión universitaria y la formación a lo largo de toda la vida.
+
+\noindent\rule{2cm}{0.4pt}
+
+```{marginfigure, echo=TRUE}
+*En el propio preámbulo de la LOU se establece que el propósito de la universidad es *"... la modernización de las universidades europeas con el fin de convertirlas en agentes activos para la transformación de Europa en una economía plenamente integrada en la sociedad del conocimiento."
+```
+
+
+Así pues, de nuevo, la docencia universitaria se enmarca no solo en la transmisión de conocimiento, sino en la transformación, creación y desarrollo de este conocimiento y la preparación para el ejercicio de actividades profesionales.
+
+Para cumplir con estos objetivos, es necesario planificar cuidadosamente la docencia y esta planificación debe tener muy en cuenta el contexto de desarrollo. En este primer capítulo del proyecto docente se van a estudiar los factores de contexto que afectan a la docencia de la materia.
+```{r figura01,  fig.margin = FALSE, fig.cap="\\label{figura01} Contextualización de la docencia universitaria. Adaptado de Zabalza (2002)"}
+
+knitr::include_graphics("figures/zabalza2002.pdf")
+
+```
+Para definir los factores de contexto, utilizamos en primer lugar el marco de referencia que presenta @zabalza2002 y que resume el contexto complejo en el que se desarrolla esta docencia y los múltiples factores que inciden en ella en la Figura \ref{figura01}.
+
+En este marco, tenemos algunos factores de contexto que podríamos denominar de *entorno general*, que son  globales para todas las instituciones de Educación Superior y otros de *entorno específico*, que afectan a la docencia de un área de conocimiento en una determinada institución. Los aspectos generales según @zabalza2002 son:
+
+- La política educativa y el marco legal
+- Los avances en la ciencia, cultura e investigación 
+- Los sistemas de colegios profesionales y sistemas de acreditación
+- Los aspectos relacionados con la inserción profesional de los estudiantes
+
+
+```{r figura02, fig.margin = FALSE, fig.cap="\\label{figura02} Contexto del Proyecto Docente. Elaboración propia a partir de Zabalza (2002)"}
+
+knitr::include_graphics("figures/marcopropio.pdf")
+
+```
+En cuanto a los aspectos que afectan a la docencia en un área de conocimiento y en una institución en particular, son:
+
+- La propia institución donde se desarrolla una determinada docencia 
+- Los aspectos curriculares ya definidos en las memorias de los títulos
+- El profesorado al que se adscribe esta docencia
+- El alumnado que va a recibir dicha docencia 
+
+Existe otro factor general que cada vez es más crítico a la docencia en la Universidad: los aspectos referidos a la Responsabilidad Social y la ética en el desempeño profesional [@Quezada2011]. Este aspecto no ha sido considerado en el marco del modelo de @zabalza2002. Así, teniendo en cuenta además la menor importancia de los colegios profesionales en la docencia de Comercialización e Investigación de Mercados, se ha adaptado el marco de referencia de @zabalza2002 para utilizarlo como resumen del contexto en el que se desarrolla este Proyecto Docente. Esta adaptación se presenta en la Figura \ref{figura02}.
+
+En los siguientes apartados de este capítulo se van a presentar estos elementos. En primer lugar, con respecto al entorno general^[El punto dos en el contexto general (avances en la ciencia, cultura e investigación en marketing), debido a su especial relevancia para el proyecto, se van a detallar en mayor medida en el capítulo 2 en lugar de incluirse como un subapartado en esta exposición], describiremos como afecta a este proyecto docente el marco legal y la política educativa, los sistemas de acreditación, el mundo del empleo y los aspectos relacionados con la Responsabilidad Social Universitaria y la ética profesional A continuación, describiremos también los factores de contexto específico de la docencia en marketing en la Universidad Pública de Navarra: la institución, las titulaciones, el profesorado en el área y los estudiantes.
+
+## El entorno general de la docencia en marketing
+
+### Marco legal y la Política Educativa
+
+Como primer elemento en el entorno general, resumimos brevemente los elementos del marco legal de referencia. 
+
+\vspace{5mm} 
+
+**El marco del Espacio Europeo de Educación Superior (EEES)**
+
+\vspace{2mm} 
+
+Uno de los objetivos primordiales de la Unión Europea es la coordinación de las políticas y normas legislativas de los Estados miembros, tanto en cuestiones relacionadas con el desarrollo económico como con el progreso y bienestar social de los ciudadanos. Este objetivo se ha extendido al ámbito de la educación y, muy especialmente, al ámbito de la enseñanza superior. Así, la educación superior se ha convertido en pieza clave para el progreso mediante la generación, transmisión y aplicación del conocimiento.
+
+En este proceso han tenido un papel muy importante las redes de colaboración existentes entre las instituciones universitarias europeas, el desarrollo de programas de movilidad interuniversitaria ERASMUS (1989-1994) y SÓCRATES-ERASMUS (1995-) y el impulso provocado por las declaraciones tanto de los responsables académicos de estas instituciones como por los ministros de educación de los países que integran la Unión Europea.
+
+```{marginfigure, echo=TRUE}
+
+La reunión que da origen al proceso de construcción del Espacio Europeo de Educación Superior se produjo el 19 de junio de 1999 en la ciudad de Bolonia. En la declaración conjunta resultante de esta reunión, los estados miembros se comprometieron a coordinar sus políticas para alcanzar la convergencia en un breve plazo de tiempo, y en cualquier caso, dentro de la primera década del tercer milenio.
+
+```
+
+El proceso para promover la convergencia de los sistemas nacionales de educación superior en Europa se inició a partir de 1988 con la Declaración de la Sorbona y especialmente cuando, los Ministerios de cada país miembro confirmaron, con la firma de la Declaración de Bolonia [@bolonia1998] la importancia de un desarrollo armónico de un Espacio Europeo de Educación Superior antes del 2010. La finalidad era elaborar programas académicos convergentes que aseguren una calidad docente, adoptando un sistema de transferencia de créditos que permita el reconocimiento inmediato de títulos, una movilidad entre países y un aprendizaje a lo largo de toda la vida
+
+Los objetivos de este proceso de convergencia incluyen:
+
+- Adopción de un sistema de titulaciones fácilmente comprensible y comparable, basado esencialmente en dos ciclos fundamentales: Grado y Posgrado. Para facilitar esta comparación entre titulaciones, se establece, entre otros instrumentos, el Suplemento Europeo al Título.
+- Establecimiento de un sistema de créditos como medio adecuado para facilitar la movilidad estudiantil. Los créditos se podrán conseguir también fuera de las instituciones de educación superior, incluyendo la experiencia adquirida durante la vida, siempre que esté reconocida por las universidades receptoras involucradas. 
+- Promoción de la movilidad, eliminando los obstáculos para el ejercicio efectivo de libre intercambio.
+- Promoción de la cooperación europea en aseguramiento de la calidad, con el objeto de desarrollar criterios y metodologías comparables.
+- Promoción de las dimensiones europeas necesarias en educación superior, particularmente dirigidas hacia el desarrollo curricular, cooperación entre instituciones, esquemas de movilidad y programas de estudio, integración de la formación e investigación. 
+
+Con posterioridad, se introducen líneas adicionales. El Comunicado de Praga (2001) añade:
+
+- El aprendizaje a lo largo de toda la vida como elemento esencial para alcanzar una mayor competitividad europea, mejorar la cohesión social, la igualdad de oportunidades y la calidad de vida.
+- El rol activo de las universidades, de las instituciones de educación superior y de los estudiantes en el proceso de convergencia.
+- La promoción de la calidad en el Espacio Europeo de Educación Superior mediante el desarrollo de sistemas de garantía de la calidad y de mecanismos de certificación y acreditación.
+
+Finalmente, en el comunicado de la Conferencia de Ministros mantenida en Berlín en 2003, los ministros se comprometieron a comenzar con la implantación del sistema de dos ciclos en 2005 y se planteó comenzar con la elaboración de un marco de calificaciones comparables y compatibles para los respectivos sistemas de educación superior. En este marco, las calificaciones se describen en términos de trabajo realizado, nivel, aprendizaje, competencias y perfil.
+
+Según la Declaración de Bolonia, el diseño de los planes de estudio debe ofrecer una formación adecuada para el desarrollo de los perfiles profesionales que previamente han sido definidos para la titulación. Con esta formación, los estudiantes pueden adquirir una serie de conocimientos y habilidades que se denominan *competencias*^[Competencia: Pericia, aptitud o idoneidad para hacer algo o intervenir en un asunto determinado *(RAE)*] y se clasifican en las llamadas competencias *específicas*, *genéricas* y *transferibles*. 
+ 
+Las competencias *específicas* están relacionadas con el área o las áreas de conocimiento y práctica profesional de la titulación y requieren la inclusión en el plan de estudios de una materia o asignatura. Las competencias *genéricas*, también llamadas *transversales*, hacen referencia a los atributos que se pretende que alcance un grupo social particular y se relacionan principalmente con la capacidad de relación del individuo con su entorno y su capacidad organizativa. Estas competencias pueden requerir o no la inclusión de una determinada materia en el plan de estudios para su aprendizaje. Un ejemplo de este tipo de competencias son los idiomas que podrían adquirirse tanto con materias específicas como impartiendo determinadas asignaturas en el idioma en el que se pretende hacer competentes a los estudiantes.
+Por último, las competencias *transferibles* son aquellas necesarias para hacer más próximos los contenidos teóricos y prácticos, o para estrechar la brecha existente entre los conocimientos teóricos adquiridos durante la titulación y el mercado laboral. 
+
+Para la adquisición de estas competencias, se establece el *crédito europeo o ECTS*^[European Credit Transfer System] como unidad de referencia sobre la que se estructuran y organizan los planes de estudios. El *ECTS* es: 
+
+\noindent\rule{2cm}{0.4pt}
+
+> Unidad de medida del haber académico que representa la cantidad de trabajo del estudiante para cumplir los objetivos del programa de estudios y que se obtiene por la superación de cada una de las materias que integran los planes de estudios universitarios de carácter oficial y de validez en todo el territorio nacional.
+
+> En esta unidad de medida se integran las enseñanzas teóricas y prácticas, así como otras actividades académicas dirigidas con inclusión de las horas de estudio y trabajo que el estudiante debe realizar para alcanzar los objetivos formativos propios de cada una de las materias. 
+
+\noindent\rule{2cm}{0.4pt}
+
+El crédito europeo  surge a partir de los programas Erasmus y Sócrates/Erasmus para la movilidad de estudiantes con el fin de facilitar el reconocimiento de sus estudios. Lo que se pretende es expandir la utilización de dicho crédito a todos los estudiantes de la Unión Europea de forma que el trabajo realizado por un estudiante sea fácilmente reconocible en todos los Estados.
+
+La diferencia existente entre el crédito europeo y el que estaba vigente hasta ese momento en el sistema universitario español es que el crédito europeo no es una medida de la duración temporal de las clases impartidas por el profesor, sino una unidad de valoración del volumen de trabajo total del alumno expresado en horas, que incluye tanto las clases teóricas y prácticas, como el esfuerzo dedicado al estudio y a la preparación y realización de exámenes. En definitiva, se trata de dar un mayor peso al trabajo y esfuerzo de los alumnos en el aprendizaje.
+
+El volumen de trabajo total de un estudiante a tiempo completo durante un curso académico por el sistema ECTS se sitúa en 60 créditos^[artículo 4.1 del RD 1125/2003]. De esta forma, un semestre equivale a 30 créditos y un trimestre a 20 créditos. A título orientativo y considerando una actividad académica aproximada de 40 semanas/año y una carga de trabajo en torno a 40 horas/semana, se establece para el crédito europeo una carga de trabajo total entre 25 y 30 horas^[Para valorar el número de horas que se deben asignar a los trabajos dirigidos en laboratorio o a trabajos de investigación hay que tener en consideración que una hora dedicada a trabajos de este tipo no genera el mismo volumen de trabajo global que una hora de curso magistral adicional].
+
+Según el R.D. 55/2005 el número total de créditos de las enseñanzas y actividades académicas conducente a la obtención de los títulos oficiales de Grado estará entre 180 y 240 ECTS mientras qye el RD 56/2005 que regula los estudios de posgrado fija en un mínimo de 60 y un máximo de 120 ECTS los conducentes a la obtención del título oficial de Máster.
+
+\vspace{5mm} 
+
+**La Ley Orgánica 4/2007, de 12 de abril, de Universidades**
+
+\vspace{2mm} 
+
+Ya hemos hecho referencia a la Ley Orgánica 4/2007, de 12 de abril, de Universidades que es la norma de máximo rango que regula la educación superior en este momento en España. Esta Ley Orgánica ha tenido su modificación más reciente por el RD14/2012^[[Real Decreto-ley 14/2012, de 20 de abril, de medidas urgentes de racionalización del gasto público en el ámbito educativo](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2012-5337)]. En este Real Decreto, entre otros aspectos: 
+El listado de estas leyes se muestra en la Tabla \ref{tabla01}.
+
+```{r tabla01, results='asis'}
+library(knitr)   
+library(kableExtra)
+library(formattable)
+
+year <- c("1983","2001", "2007", "2012") 
+nombre <- c("Ley Orgánica 11/1983 de Reforma Universitaria (LRU)", "Ley Orgánica 6/2001 de Universidades (LOU)","Ley Orgánica 4/2007,de 12 de abril, por la que se modifica la Ley Orgánica 6/2001 de Universidades","Real Decreto-ley 14/2012, de 20 de abril que afecta a la Ley Orgánica 4/2007,de 12 de abril" )
+partido<-c("PSOE", "PP", "PSOE", "PP")
+etapa <- c("1982-1996", "1996-2004", "2004-2011", "2011-")
+tabla <- data.frame("Año"=year,"Nombre"=nombre, "Partido"=partido, "Periodo"=etapa)
+knitr::kable(tabla, row.names = FALSE, format = "latex", booktabs = T, caption = "\\label{tabla01}Normas Legales sobre Universidad posteriores a 1978")%>% 
+      column_spec(2, width = "17em")
+```
+En un futuro cercano no es probable encontrar cambios relevantes en esta tendencia. De hecho, la pérdida de poder de los partidos mayoritarios en un sistema básicamente bipartidista que se produce a partir de las elecciones al Parlamento Europeo en 2014 ha hecho que nuevos partidos políticos alcancen cuotas relevantes de representación, pero no ha aumentado el nivel de acuerdo con respecto a unos mínimos aspectos de consenso en relación con las políticas educativas.
+
+### Sistemas de Acreditación
+
+Los modelos de gestión de calidad y sistemas de gestión se han convertido en indispensables en el mundo empresarial desde mediados del siglo XX [@feigenbaum1983total] , siendo el más conocido el [Modelo Europeo de Gestión de Calidad, EFQM](http://www.efqm.org/) [@sanchez2005calidad] de 1992. El sistema universitario no ha sido ajeno a esta tendencia y la gestión de la calidad que, como hemos visto, se impulsa desde el EEES se despliega tanto desde el marco normativo como a iniciativa de las propias universidades. 
+
+```{r EFQM, fig.margin = TRUE, fig.cap = "Logo Modelo FQM.", out.width='50%'}
+
+knitr::include_graphics("figures/efqm.png")
+
+```
+
+
+Desde el *marco legal e institucional*, es necesario destacar el papel de la [«Agencia Nacional de Evaluación de la Calidad y Acreditación (ANECA)»](http://www.aneca.es/). ANECA se funda ya en el marco del Espacio Europeo de Educación Superior, a consecuencia de la aprobación de la Ley Orgánica 6/2001, de 21 de diciembre, de Universidades, que preveía la constitución de la Agencia Nacional de Evaluación de la Calidad y Acreditación, con funciones de evaluación y las conducentes a la certificación y acreditación, entre otras, de las actividades docentes, investigadoras y de gestión del profesorado universitario. Además, la misma Ley Orgánica ya exigía una evaluación previa positiva para la contratación de profesorado por las universidades públicas. 
+
+Así, en 2002, se crea la Agencia Nacional de Evaluación de la Calidad y Acreditación. En 2007, tras la aprobación de la Ley Orgánica 4/2007 , de 12 de abril, por la que se modifica la Ley Orgánica 6/2001 , de 21 de diciembre, de Universidades, se aprueba el Real Decreto 1312/2007 , de 5 de octubre, por el que se establece la acreditación nacional para el acceso a los cuerpos docentes universitarios y el Real Decreto 1393/2007, de 29 de octubre, por el que se establece la ordenación de las enseñanzas universitarias oficiales. La evaluación de ambos aspectos son competencia de la Fundación. Por último, la Ley 15/2014, de 16 de septiembre, de racionalización del Sector Público y otras medidas de reforma administrativa, crea el Organismo Autónomo Agencia Nacional de Evaluación de la Calidad y Acreditación que absorbe las funciones de la anterior Fundación ANECA. En la Figura \ref{Aneca} se resume la historia de ANECA.
+
+Para terminar con el contexto específico del proyecto docente, en la Tabla \ref{datostitulos} se presentan algunos indicadores clave de las 3 titulaciones de grado en las que se concentra la docencia en el área de Comercialización e Investigación de Mercados. 
+
+```{r datostitulos, results='asis'}
+
+
+tabla <- data.frame(stringsAsFactors=FALSE,
+              Indicador = c("Plazas Ofertadas",
+                             "% Plazas Matriculadas en primera opción",
+                             "Nota Mínima Admisión", "Tasa de Rendimiento",
+                             "Estudiantes Egresados", "Duración media de los estudios",
+                             "Plazas Ofertadas",
+                             "% Plazas Matriculadas en primera opción", "Nota Mínima Admisión",
+                             "Tasa de Rendimiento", "Estudiantes Egresados",
+                             "Duración media de los estudios", "Plazas Ofertadas",
+                             "% Plazas Matriculadas en primera opción", "Nota Mínima Admisión",
+                             "Tasa de Rendimiento", "Estudiantes Egresados",
+                             "Duración media de los estudios"),
+                A201112 = c(200L, "87%", 5.99, "74.3%", 0, 0, 45, "90.1%",
+                             9.06, "95.2%", 0, 0, 35, "100%", 9.62, "98.6%", 0, 0),
+                A201213 = c(200L, "82.5%", 6.67," 77.3%", 0, 0, 45, "83.3%", 9.367,
+                             "96.4%", 0, 0, 35, "100%", 10.78, "97.8%", 0, 0),
+                A201314 = c(215L, "82.3%", 6.54, "78.7%", 127, 4, 25, "100%", 9.703, "96.3%",
+                             0, 0, 40, "100%", 9.80, "98.3%", 0, 0),
+                A201415 = c(215L, "79.9%", 5.62, "78.3%", 162, 4.4, 25, "100%", 10.902,
+                             "97.6%", 11, 4.9, 40, "100%", 10.792, "98.6%", 0, 0),
+                A201516 = c(195L, "84.7%", 6.172, "76.8%", 157, 4.6, 25, "100%", 10.028,
+                             "98.1%", 19, 5.1, 40, "100%", 9.907, "98.3%", 29, 6),
+            A201617 = c(195L, "72.8%", 6.31, "-", "-",  "-", 25, "100%", 10.85,  "-",  "-",
+                              "-", 40, "100%", 10.94,  "-",  "-",  "-")
+               
+         )
+
+
+
+names(tabla)<- c("Indicador", "2011 - 2012", "2012 - 2013", "2013 - 2014", "2014 - 2015","2015 - 2016", "2016 - 2017[note]")
+
+knitr::kable(tabla, row.names = FALSE, align = c('l', 'c', 'c', 'c', 'c', 'c'),
+             format = "latex",booktabs = T, caption = "\\label{datostitulos} Indicadores por titulación. Fuente: Elaboración propia con datos UPNA. Portal de Transparencia")  %>% 
+      kable_styling(font_size = 6.5) %>%
+      group_rows("ADE", 1, 6) %>%
+      group_rows("Doble Grado ADE+ECO", 7, 12) %>%
+      group_rows("Doble Grado ADE+Dcho", 13, 18) %>%
+      column_spec(1, width = "9em")%>%
+      column_spec(2:7, width = "4em")%>%
+      add_footnote(c("Datos provisionales"))
+```
+
+Podemos observar importantes diferencias entre las tres titulaciones de Grado. Los dos títulos dobles tienen un cupo de acceso mucho más reducido y una tasa del 100% de estudiantes que acceden al título en primera opción. El Grado en ADE tiene un acceso en primera opción alto (72% en el curso 2016/2017) pero hay un número significativo de estudiantes que hubieran preferido otra titulación. Estas diferencias se reflejan también en las notas de admisión, que son mucho más altas en los dos dobles títulos situándose por encima de los 10 pntos, frente a un 6.31 en ADE. De esta forma, los indicadores señalan que los dos dobles grados tienen un perfil de ingreso de estudiantes más motivados en media y con notas de acceso más altas.
+
+Este perfil de ingreso tiene reflejo en el rendimiento y la graduación. La tasa de rendimiento (créditos aprobados frente a créditos presentados) es casi del 100% en los dos dobles títulos y del 76% en el grado en ADE. Además, la duración de los estudios se corresponde casi exactamente con lo previsto para los dos dobles grados (5 años en el doble ADE-ECO y 6 en el doble ADE-Dcho) y se retrasa en algo más de seis meses en el grado en ADE. En la Figura \ref{indicadores} podemos ver la evolución de estos indicadores.
+
+Podemos ver cómo no existe un patrón definido en cuanto a la evolución del porcentaje de admisión en ADE y a las notas de corte de las tres titulaciones que se mantienen relativamente estables con pequeñas variaciones.
+
+

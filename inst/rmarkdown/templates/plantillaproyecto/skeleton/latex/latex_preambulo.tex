@@ -1,0 +1,129 @@
+
+% \usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\hypersetup{colorlinks}% uncomment this line if you prefer colored hyperlinks (e.g., for onscreen viewing)
+\usepackage[spanish,es-nodecimaldot,es-noshorthands,es-tabla]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{ifxetex}
+\usepackage{fontspec}
+\usepackage{graphicx}
+\usepackage{float}
+
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{colortbl}
+
+
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+
+
+
+% \setmainfont[Ligatures=TeX,Numbers=OldStyle]{Cardo}
+\setmainfont[Scale=1.15]{Cardo}[%
+  Path = fonts/ ,
+  Extension = .ttf ,
+  UprightFont = *104s ,
+  BoldFont = *b101 ,
+  ItalicFont = *i99,
+  Ligatures=TeX,Numbers=OldStyle
+]
+\setsansfont[Scale=0.94]{Roboto}
+% \setmonofont[Scale=0.94]{Consolas}
+\setmonofont{Consolas}[%
+  Path = fonts/ ,
+  Extension = .ttf ,
+  BoldFont = *_Bold ,
+  ItalicFont = *_Italic,
+  BoldItalicFont = *_Bold_Italic,
+  Scale=0.94
+]
+\usepackage{fontawesome}
+
+\newcommand\sectionnote[1]{\marginnote{\color{RubineRed}#1}}
+
+\ifxetex
+  \newcommand{\textls}[2][5]{%
+    \begingroup\addfontfeatures{LetterSpace=#1}#2\endgroup
+  }
+  \renewcommand{\allcapsspacing}[1]{\textls[15]{#1}}
+  \renewcommand{\smallcapsspacing}[1]{\textls[10]{#1}}
+  \renewcommand{\allcaps}[1]{\textls[15]{\MakeTextUppercase{#1}}}
+  \renewcommand{\smallcaps}[1]{\smallcapsspacing{\scshape\MakeTextLowercase{#1}}}
+  \renewcommand{\textsc}[1]{\smallcapsspacing{\textsmallcaps{#1}}}
+\fi
+
+\usepackage{ragged2e}
+
+\renewcommand{\maketitlepage}{%
+  \cleardoublepage
+  \begin{fullwidth}%
+    \sffamily
+    \RaggedRight\sloppy% <-- added this line
+    \fontsize{24}{26}\selectfont\par\noindent\textcolor{darkgray}{\smallcaps{\thanklessauthor}}%
+    \vspace{11.5pc}%
+    \fontsize{40}{44}\selectfont\par\noindent\textcolor{darkgray}{\smallcaps{\thanklesstitle}}%
+    \vfill
+    \fontsize{16}{18}\selectfont\par\noindent{\thanklesspublisher}%
+  \end{fullwidth}%
+  \thispagestyle{empty}%
+  \clearpage
+}
+
+
+%% Font settings suggested by fbb documentation.
+% \usepackage{textcomp} % to get the right copyright, etc.
+% \usepackage[lining,tabular]{fbb} % so math uses tabular lining figures
+% \usepackage[scaled=.94,type1]{cabin} % sans serif in style of Gill Sans
+% \usepackage[varqu,varl]{zi4}% inconsolata typewriter
+% \useosf % change normal text to use proportional oldstyle figures
+%\usetosf would provide tabular oldstyle figures in text
+
+\setsidenotefont{\sffamily\footnotesize}
+\setmarginnotefont{\sffamily\footnotesize}
+\setcaptionfont{\sffamily\itshape\footnotesize}
+\titleformat{\part}{\mdseries\huge}{\textsc{Part \thepart}}{1em}{\textsc}
+
+\usepackage[os=win]{menukeys}
+\renewmenumacro{\directory}{pathswithfolder}
+\renewcommand\drawtikzfolder[1][black]{\textcolor{#1}\faFolderO{}}
+
+\usepackage{graphicx}
+
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+\usepackage{enumitem}
+\setlist[itemize,enumerate]{noitemsep}
+
+
+\usepackage{mdframed}
+\mdfsetup{backgroundcolor=Beige!30!white,hidealllines=true}
+\surroundwithmdframed{minted}
+
+\usepackage{silence}
+\WarningFilter{latex}{Marginpar on page}
+
+\newsavebox{\titleimage}
+\savebox{\titleimage}{\includegraphics[height=3\baselineskip]{images/logo.png}}
+
+\newsavebox{\edition}
+\savebox{\edition}{\sffamily\LARGE\smallcaps{\hspace{2em}8 de Abril, 2018}}
+
+\title[Proyecto Docente]{Proyecto Docente para Dirección Comercial\\\noindent%
+\usebox{\edition}\par \vspace{7cm}
+  \usebox{\titleimage}}
+%{Guide on Using \texttt{upnmthesis} for Writing Universiti Pertahanan Nasional Malaysia Theses with \LaTeX}
+% \subtitle{version 1.0, October 20, 2015}
+\author{Mónica Cortiñas}
+\publisher{%
+\makebox[1em]{\faEnvelopeO{}}\enspace\smallcaps{mcortinas\string@unavarra.es}\\\noindent
+\makebox[1em]{\faGlobe{}}\enspace\smallcaps{http://www.monicacortinas.net/}%
+}
+

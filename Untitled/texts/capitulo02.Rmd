@@ -1,0 +1,62 @@
+---
+documentclass: book
+classoption: a4paper
+#classoption: a4paper,oneside
+#bibliography: bib/library.bib
+bibliography: ["bib/library.bib", "bib/paquetes.bib"]
+#csl: methods-in-ecology-and-evolution.csl
+csl: acm-sig-proceedings-long-author-list.csl
+urlcolor: blue #black
+linkcolor: blue #black
+link-citations: yes
+fontsize: 12pt # 10pt,11pt
+geometry: margin = 2.5cm #1.2in
+output: 
+  pdf_document: 
+    keep_tex: no
+    number_sections: yes
+#    toc: yes
+    fig_caption: yes
+    includes:
+      in_header: latex/latex_preambulo.tex
+      after_body: latex/latex_antes_enddoc.tex
+---
+
+
+
+```{r include=FALSE}
+knitr::opts_chunk$set(fig.path = 'figurasR/',
+                      echo = FALSE, warning = FALSE, message = FALSE,
+                      fig.pos="H",fig.align="center",out.width="95%",
+                      cache=FALSE)
+
+```
+
+# Fundamentación Disciplinar
+
+## Marco de Conocimiento
+
+Como se ha establecido en el Capítulo 1, la docencia universitaria no puede seguir un simple ejercicio de transmisión de conocimiento sino que debe actuar como productora y transformadora de este conocimiento. Un proyecto docente sobre esta materia debe partir de una reflexión sobre la propia disciplina. Esta reflexión se resume en la primera parte de este capítulo.
+
+El establecimiento de la naturaleza del marketing como disciplina académica, como ciencia y como actividad humana, es todavía hoy objeto de debate [e.g. @baker2016marketing; @silk2006marketing]. Los cambios en el entorno competitivo, la consiguiente evolución de las actividades y prácticas empresariales, y las sucesivas aportaciones de los académicos, son los principales responsables de mantener viva esa llama.
+
+Comprender el concepto actual de marketing, su alcance y sus desarrollos más recientes y avanzados, exige un ejercicio de revisión de los estudios anteriores por los que ha evolucionado hasta llegar a nuestros días. 
+
+Pero antes de comenzar a describir el desarrollo del marketing, conviene hacer una breve reseña al propio término *marketing*, que nos permita avalar su empleo a lo largo del Proyecto Docente. En este sentido, señalar, que si bien en los medios oficiales universitarios, se emplean términos compuestos como "Investigación y Comercialización de Mercados" para denominar al área de conocimiento, o "Dirección Comercial", e incluso "Mercadotecnia", para denominar materias en las memorias de los títulos, lo cierto es que, entre la comunidad académica y, sin duda, la empresarial, esta denominación está totalmente consolidada. El término se incluye además en Diccionario de la Real Academia de la Lengua Española como sinónimo de *mercadotecnia* desde la XXI edición.
+
+### Origen y evolución del Marketing
+
+Fijar el momento de nacimiento del marketing no es una tarea fácil. En este sentido, varios autores, basándose en la idea del intercambio, sostienen que el marketing es tan antiguo como la humanidad misma (Martín, 1993; Kotler, 1989). Kotler y Levy (1969, pág.10), por su parte, relacionan el “nacimiento del marketing, con la eclosión de las primeras manifestaciones comerciales visualizadas a través del trueque de mercancías”. 
+Otros autores, lo fechan de forma más concreta. Díez de Castro y Martín (1993) citan como primera actividad publicitaria conocida la costumbre del hombre primitivo de colgar a la puerta de su morada la piel de los animales cazados que él no iba a utilizar, para mostrarla a otros que pudieran estar interesados en ella y cambiarla por otro objeto. Posteriormente, relatan como en las antiguas Grecia y Roma, y posteriormente en la Edad Media, se llevaban a cabo diversas actividades calificables asimismo como publicitarias, como los anuncios de los pregoneros al servicio de comerciantes cuando éstos llegaban a las ciudades. También mencionan estos autores que, el primer periódico semanal de Gran Bretaña dedicado exclusivamente a anuncios data de 1657, y se llamaba Public Adviser. 
+
+Rassuli (1988) describe cómo las actividades de marketing se aplicaban en la comercialización de libros en el siglo XV. 
+Para completar este repaso histórico, en la tabla 1.1 se presentan otros acontecimientos relevantes acaecidos en el periodo comprendido entre 1704 y 1900. 
+
+### El dominio del marketing
+### Marketing de relaciones y marketing posmoderno
+### El marketing en las empresas
+### La sociedad de la información y el marketing
+
+
+## Propuesta Metodológica
+

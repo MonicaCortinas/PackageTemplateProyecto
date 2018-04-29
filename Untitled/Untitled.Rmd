@@ -1,0 +1,77 @@
+---
+title: "Proyecto Docente"
+subtitle: "Dirección Comercial"
+author: "Mónica Cortiñas"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+header-includes: 
+      \usepackage[table]{xcolor} 
+output:
+  tufte::tufte_book:
+    latex_engine: xelatex
+    includes:
+      in_header: latex/latex_preambulo.tex
+  tufte::tufte_handout:
+    latex_engine: xelatex
+  tufte::tufte_html: default
+link-citations: yes
+bibliography: "D:/Dropbox/2_ Investigacion/4_Referencias/library.bib"
+csl: bib/spanish-journal-of-marketing-esic.csl
+
+
+---
+
+```{r setup, include=FALSE}
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(tidy = FALSE, cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+
+
+
+```
+
+
+`r newthought('Proyecto Docente')` que se presenta al Concursos de acceso al Cuerpo de Profesores Titulares de Universidad, en el Área de Conocimiento de Comercialización e Investigación de Mercados^[Boletín Oficial del Estado de 21 de Septiembre de 2018].  
+
+Este Proyecto Docente ha sido defendido en la Universidad Pública de Navarra el tal del tal j chfgsjfmcg,hjm<gfa,fj<eh,KG
+
+
+\tableofcontents
+
+\cleardoublepage   
+<!--  \clearpage -->
+\section{Prólogo}
+
+
+```{r child = 'texts/prologo.Rmd'}
+```
+\cleardoublepage   
+
+\listoffigures
+
+\addcontentsline{toc}{section}{Índice de Figuras}
+
+\cleardoublepage   
+
+\listoftables
+
+\addcontentsline{toc}{section}{Índice de Tablas}
+
+\cleardoublepage   
+
+\pagenumbering{arabic}
+
+
+\FloatBarrier
+```{r child = 'texts/capitulo01.Rmd'}
+```
+
+\FloatBarrier
+
+```{r child = 'texts/capitulo02.Rmd'}
+```
+
+\FloatBarrier
+\cleardoublepage   
+
+# Bibliografía

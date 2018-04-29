@@ -1,0 +1,33 @@
+---
+output:
+  tufte::tufte_handout:
+    latex_engine: xelatex
+---
+
+`r newthought('El presente proyecto docente')` se ha elaborado para la participación el concurso de acceso al cuerpo de Titular de Universidad en la Universidad Pública de Navarra, tomando como referencia la normativa en el
+**Reglamento A6/2009**^[[Reglamento para los Concursos de Acceso a Cuerpos de Funcionarios Docentes Universitarios](https://www.unavarra.es/digitalAssets/115/115253_100000Reglamento-accesomodificado.pdf) de la Universidad Pública de Navarra modificado por A26/2009 y por A28/2011 (B.O.N. de 9 de junio de 2011)]. 
+
+En el mencionado Reglamento se indica que el Proyecto docente:  
+
+> "... incluirá el programa de una de las materias o especialidades correspondiente a la plaza de que se trate ... que el candidato se propone desarrollar de serle adjudicada la plaza a la que concursa."
+
+Sin embargo, no se incluyen especificaciones adicionales con respecto al contenido del proyecto. La **Ley Orgánica 4/2007**^[[Ley Orgánica 4/2007 de 12 de abril, de Universidades](https://www.unavarra.es/digitalAssets/115/115118_100000LOUmodificada-de-Universidades.pdf)] dice en su artículo 62.4:
+
+> "4. Igualmente, los estatutos regularán el procedimiento que ha de regir en los concursos, que deberá valorar, en todo caso, el historial académico, docente e investigador del candidato o candidata, su proyecto docente e investigador, así como contrastar sus capacidades para la exposición y debate en la correspondiente materia o especialidad en sesión pública"
+
+Así mismo, el **Real Decreto 1313/2007**, de 5 de octubre, por el que se regula el régimen de los concursos de acceso a cuerpos docentes universitarios fija este contenido de forma muy similar^[*Los Estatutos de cada Universidad regularán el procedimiento que ha de regir en los concursos, que deberá valorar, en todo caso, el historial académico, docente e investigador del candidato o candidata, su proyecto docente e investigador, así como contrastar sus capacidades para la exposición y debate ante la Comisión en la correspondiente materia o especialidad en sesión pública.*]. De esta forma, el marco normativo no especifica los requisitos a cumplir en cuanto a contenidos y estructura que debe incluir este Proyecto Docente. 
+
+Se han considerado referencias adicionales, como las indicaciones en las extintas Pruebas de Habilitación Nacional en las que se indicaba que el Proyecto Docente debía ser una propuesta personal y original que incluyera el programa de una o varias asignaturas de las materias troncales entre las asignadas al área de conocimiento en los planes de estudio y algunas referencias adicionales como @Segovia2009, @marcelo2001proyecto y @hernandez1989disenar.
+
+Como conclusión de esta revisión, este proyecto docente se plantea como una propuesta **personal** y **realista** de desarrollo docente de una **materia**, como indica el reglamento de la Universidad Pública de Navarra y, más especificamente, de una materia **básica** en el área de conocimiento. Para cumplir con esta definición, he seleccionado la materia **Dirección Comercial** del título de **Graduado/a en Administración de Empresas** que se imparte en la Universidad Pública de Navarra. Esta materia se imparte dividida en dos asignaturas distintas: Dirección Comercial I y Dirección Comercial II.
+
+Este Proyecto Docente toma, por tanto como punto de partida el [Plan de Estudios de la Titulación](http://www.unavarra.es/fac-economicas/estudios/grado/grado-en-administracion-y-direccion-de-empresas/plan-estudios?submenu=yes), incluída la definición de la materia y sus competencias, la [Guía de la Asignatura I](http://www.unavarra.es/ficha-asignaturaDOA?languageId=100000&codPlan=172&codAsig=172402) y la [Guía de la Asignatura II](http://www.unavarra.es/ficha-asignaturaDOA?languageId=100000&codPlan=172&codAsig=172502). Sin embargo, incluye así mismo una visión personal sobre el marco de referencia en el que esta asignatura se desarrolla^[Capítulo 1], el enfoque tanto epistemológico como metodológico en el que debe impartirse^[Capítulo 2] y la definición de contenidos, selección de objetivos, actividades a desarrollar, metodología de evaluación y temporalización^[Capítulo 3].
+
+El proceso de elaboración de este Proyecto Docente ha supuesto una oportunidad de **reflexión** sobre la **docencia universitaria de marketing** que considero ha resultado muy enriquecedora para mi. Así, espero que este proyecto pueda ser también de interés para la Comisión de Evaluación.
+
+\begin{center}
+\textit{Este proyecto se presenta para su defensa y debate en la Universidad Pública de Navarra en Pamplona el tal del tal.}
+\end{center}
+
+
+
